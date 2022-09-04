@@ -20,6 +20,8 @@ public class TaxPayer {
 		this.educationSpending = educationSpending;
 	}
 
+	
+	
 	public double getSalaryIncome() {
 		return salaryIncome;
 	}
@@ -59,7 +61,7 @@ public class TaxPayer {
 	public void setEducationSpending(double educationSpending) {
 		this.educationSpending = educationSpending;
 	}
-	
+
 	public double salaryTax() {
 		double salaryMonth = salaryIncome / 12.0;
 		double taxValue = 0.0;
